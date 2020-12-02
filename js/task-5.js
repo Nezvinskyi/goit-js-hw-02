@@ -5,7 +5,6 @@ const checkForSpam = function (message) {
   for (const word of array) {
     if (word.includes('spam') || word.includes('sale')) {
       keyWordDetected = true;
-      continue;
     }
    }
   return keyWordDetected;

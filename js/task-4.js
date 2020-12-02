@@ -1,6 +1,4 @@
 const formatString = function (string) {
-console.log('string.length :>> ', string.length);
-
   if (string.length > 40) {
     const array = string.split('', 40);
     string = array.join('') + '...';
